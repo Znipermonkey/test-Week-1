@@ -187,14 +187,29 @@ console.log(pinkTons)
 
 // CODE HERE 
 
-// let fujiPounds =
-// let galaPounds =
-// let pinkPounds =
+let fujiPounds = 0
 
+for (let i = 0; i < fujiTons.length; i++){
+   fujiPounds += fujiTons[i] * 2000
+}
+console.log (fujiPounds)
 
+let galaPounds = 0
 
+for (let i = 0; i < galaTons.length; i++){
+    galaPounds += galaTons[i] * 2000
+ }
+ console.log (galaPounds)
 
+let pinkPounds = 0
 
+ for (let i = 0; i < pinkTons.length; i++){
+    pinkPounds += pinkTons[i] * 2000
+ }
+ console.log (pinkPounds)
+
+//here i made seperate loops for each apple type
+//for each item in the array of the apple types tons it adds the arrays item times 2000 to the pounds of its specific apple
 
 // PROBLEM 6
 
@@ -214,12 +229,17 @@ console.log(pinkTons)
 
 // CODE HERE
 
-// let fujiProfit =
-// let galaProfit =
-// let pinkProfit =
+let fujiProfit = fujiPounds * fujiPrice
+console.log(fujiProfit)
 
+let galaProfit = galaPounds * galaPrice
+console.log(galaProfit)
 
+let pinkProfit = pinkPounds * pinkPrice
+console.log(pinkProfit)
 
+// here for each apples pounds are multiplied by its respective price
+//it is then logged into the console.
 
 
 
@@ -234,3 +254,9 @@ console.log(pinkTons)
 */
 
 // CODE HERE
+
+let totalProfit = galaProfit + pinkProfit + fujiProfit
+console.log(totalProfit)
+
+//here total profit is calculated by adding gala's, pink's, and fuji's profits
+//it is then logged into the console.
