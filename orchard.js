@@ -50,8 +50,15 @@ const pinkPrice = .55
 */
 
 // CODE HERE
+let totalAcres = 0
+for (let i = 0; i < fujiAcres.length; i++){
+    totalAcres += fujiAcres[i] 
+    totalAcres += galaAcres[i]
+    totalAcres += pinkAcres[i]
+}
 
-
+  //here i made a for loop that adds each type of apple to the total acres
+console.log (totalAcres)
 
 
 
@@ -68,9 +75,9 @@ const pinkPrice = .55
 */
 
 // CODE HERE
-
-
-
+let averageDailyAcres = totalAcres/7
+console.log(averageDailyAcres)
+//I divided the total acres y 7 so i get an average of acres picked each day of the week.
 
 
 // PROBLEM 3
@@ -106,9 +113,13 @@ let acresLeft = 174
 let days = 0
 
 // CODE HERE
+while(acresLeft > 0){
+    acresLeft -= averageDailyAcres
+    days++
+}
+console.log(days)
 
-
-
+// here i looped while acres left was bigget than 0 for every loop it got rid of the daily average from acres left then it added 1 to they days
 // PROBLEM 4
 
 /*
@@ -135,12 +146,26 @@ let days = 0
 
 // CODE HERE
 
-// let fujiTons =
-// let galaTons =
-// let pinkTons =
+let fujiTons = []
+for (let i = 0; i < fujiAcres.length; i++){
+    fujiTons.push (6.5 * fujiAcres[i])
+}
+console.log(fujiTons)
+let galaTons = []
+for (let i = 0; i < galaAcres.length; i++){
+    galaTons.push (6.5 * galaAcres[i])
+}
+console.log(galaTons)
+let pinkTons = []
+for (let i = 0; i < pinkAcres.length; i++){
+    pinkTons.push (6.5 * pinkAcres[i])
+}
+console.log(pinkTons)
 
-
-
+//here i made a seperat loop for each of the apple types.
+//each loop loops for each day of the week
+//they multiply the apple acres by 6.5 to get the tons 
+//they finally log the tons of each apple
 
 
 
