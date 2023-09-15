@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-var gitDefinition = ('git is a tool used when programming to track changes in files it is usually used when working in a group.')
+let gitDefinition = ('git is a tool used when programming to track changes in files it is usually used when working in a group.')
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@ var gitDefinition = ('git is a tool used when programming to track changes in fi
 */
 
 //CODE HERE
-var gitHubDefinition = ('Github is a tool used to keep our code safe on the cloud rather than on a system, it also can be used to make it easier for others to access our code.')
+let gitHubDefinition = ('Github is a tool used to keep our code safe on the cloud rather than on a system, it also can be used to make it easier for others to access our code.')
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,7 +26,7 @@ var gitHubDefinition = ('Github is a tool used to keep our code safe on the clou
 */
 
 //CODE HERE
-var gitInitDefinition = ('This command is what we use to turn a file into a git file so we can use some of the resources exclusive to git files.')
+let gitInitDefinition = ('This command is what we use to turn a file into a git file so we can use some of the resources exclusive to git files.')
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,7 +34,7 @@ var gitInitDefinition = ('This command is what we use to turn a file into a git 
 */
 
 //CODE HERE
-var gitCloneDefinition = ('this command will copy a git file and put it into a new directory.')
+let gitCloneDefinition = ('this command will copy a git file and put it into a new directory.')
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,7 +42,7 @@ var gitCloneDefinition = ('this command will copy a git file and put it into a n
 */
 
 //CODE HERE
-var gitStatusDefinition = ('This command will show us the current status of our git file')
+let gitStatusDefinition = ('This command will show us the current status of our git file')
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,9 +53,9 @@ var gitStatusDefinition = ('This command will show us the current status of our 
 */
 
 //CODE HERE
-var gitAddDefinition = ('This command will add the code that is currently not inside of the git file to the git file.')
+let gitAddDefinition = ('This command will add the code that is currently not inside of the git file to the git file.')
 
-var gitAddCode = ('git add .')
+let gitAddCode = ('git add .')
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -66,9 +66,9 @@ var gitAddCode = ('git add .')
 */
 
 //CODE HERE
-var gitCommitDefinition = ('This command will record changes to the repository and save them there.')
+let gitCommitDefinition = ('This command will record changes to the repository and save them there.')
 
-var gitCommitCode = ('git commit -m "initial commit"')
+let gitCommitCode = ('git commit -m "initial commit"')
 //////////////////PROBLEM 8////////////////////
 /*
     Create a variable called 'gitPushDefinition'.  
@@ -76,4 +76,4 @@ var gitCommitCode = ('git commit -m "initial commit"')
 */
 
 //CODE HERE
-var gitPushDefinition = ('This command will add the saved changes from the computer fies to Github')
+let gitPushDefinition = ('This command will add the saved changes from the computer fies to Github')
